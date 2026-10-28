@@ -1,6 +1,6 @@
 # UI 布局审美 Skill
 
-[![version](https://img.shields.io/badge/version-0.1-blue?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/releases) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/LICENSE) [![designs](https://img.shields.io/badge/设计点-3_个-orange?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/skills/ui-layout/references/designs.md)
+[![version](https://img.shields.io/badge/version-0.2-blue?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/releases) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/LICENSE) [![designs](https://img.shields.io/badge/设计点-7_个-orange?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/skills/ui-layout/references/designs.md)
 
 给 AI 编码助手（Claude Code、Codex、Cursor 等）用的网页布局审美技能包。
 
@@ -48,6 +48,7 @@ npx skills add https://github.com/linyi-ui/ui-layout-skill
 | 期 | 主题 | 提示词 |
 |---|---|---|
 | 第01期 | 35mm 胶片相机站首屏：配色极度克制、标题顶满边缘、线稿3D模型不填色 | [拆一个好看的首屏.md](prompts/拆一个好看的首屏.md) |
+| 第02期 | 2个网站首屏颜色反差：衬线大字压天空、九成淡色+一处高饱和点缀、树枝镂空露材质、照片当背景色、超粗圆体无衬线标题、品牌名弧形排布 | [2个网站首屏颜色反差.md](prompts/2个网站首屏颜色反差.md) |
 
 ---
 
@@ -60,6 +61,10 @@ npx skills add https://github.com/linyi-ui/ui-layout-skill
 | 01 | 配色极度克制 2 Colors Only | 想要"精密仪器感"、高级感的首屏；强调色只出现一次 |
 | 02 | 标题顶满边缘 Edge-to-Edge Type | 想要标题成为画面主体，而不是规规矩矩缩在中间 |
 | 03 | 线稿3D模型不填色 Wireframe 3D | 想要科技感/精密感的产品展示，比真实照片更有参与感 |
+| 04 | 衬线大字压天空 Serif Title Over Sky | 建筑/地产/人文类标题想要和实景图融为一体 |
+| 05 | 九成淡色+一处高饱和点缀 90% Muted + One Accent | 想要克制高级但留一点彩色呼吸感 |
+| 06 | 照片当背景色 Photo As Background Color | 某个色块区域想要比纯色更有质感 |
+| 07 | 品牌名弧形排布 Arc Text Layout | 品牌名/标题想要比直排多一点俏皮感、亲和力 |
 
 完整参数和使用场景见 [designs.md](skills/ui-layout/references/designs.md)。
 
@@ -72,6 +77,7 @@ npx skills add https://github.com/linyi-ui/ui-layout-skill
 ## 更新记录
 
 - **v0.1**（第01期）：首次发布。新增 3 个设计点（配色极度克制、标题顶满边缘、线稿3D模型不填色），来源案例：35mm 胶片相机站首屏。
+- **v0.2**（第02期）：新增 4 个设计点（衬线大字压天空、九成淡色+一处高饱和点缀、照片当背景色、品牌名弧形排布），来源案例：建筑3D展示站 + 番茄品牌页脚站。
 
 ## 许可证
 
