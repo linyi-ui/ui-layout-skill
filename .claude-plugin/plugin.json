@@ -1,0 +1,13 @@
+{
+  "name": "ui-layout",
+  "version": "0.1.0",
+  "description": "网页/界面布局审美：装上后 AI 做页面排版会按真实获奖网站拆出来的设计点自动用上（配色克制、标题顶满、留白节奏等），不再是模板感十足的 AI 默认排版。",
+  "author": {
+    "name": "linyi-ui",
+    "url": "https://github.com/linyi-ui"
+  },
+  "homepage": "https://github.com/linyi-ui/ui-layout-skill",
+  "repository": "https://github.com/linyi-ui/ui-layout-skill",
+  "license": "MIT",
+  "keywords": ["ui", "layout", "design", "布局", "排版", "审美"]
+}
