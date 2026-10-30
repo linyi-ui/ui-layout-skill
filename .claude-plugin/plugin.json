@@ -1,6 +1,6 @@
 {
   "name": "ui-layout",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "网页/界面布局审美：装上后 AI 做页面排版会按真实获奖网站拆出来的设计点自动用上（配色克制、标题顶满、留白节奏等），不再是模板感十足的 AI 默认排版。",
   "author": {
     "name": "linyi-ui",

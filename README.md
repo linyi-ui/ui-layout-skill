@@ -1,6 +1,6 @@
 # UI 布局审美 Skill
 
-[![version](https://img.shields.io/badge/version-0.2-blue?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/releases) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/LICENSE) [![designs](https://img.shields.io/badge/设计点-6_个-orange?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/skills/ui-layout/references/designs.md)
+[![version](https://img.shields.io/badge/version-0.3-blue?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/releases) [![license](https://img.shields.io/badge/license-MIT-green?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/LICENSE) [![designs](https://img.shields.io/badge/设计点-12_个-orange?style=flat-square)](https://github.com/linyi-ui/ui-layout-skill/blob/main/skills/ui-layout/references/designs.md)
 
 给 AI 编码助手（Claude Code、Codex、Cursor 等）用的网页布局审美技能包。
 
@@ -49,6 +49,7 @@ npx skills add https://github.com/linyi-ui/ui-layout-skill
 |---|---|---|
 | 第01期 | 35mm 胶片相机站首屏：配色极度克制、标题顶满边缘、线稿3D模型不填色 | [拆一个好看的首屏.md](prompts/拆一个好看的首屏.md) |
 | 第02期 | 拆2个真实交互：按住触发物理反馈、悬停切视频、点击筛选重排 | [拆2个真实交互.md](prompts/拆2个真实交互.md) |
+| 第03期 | 两种网站两种美学：标题当锚点、错落照片墙、框架无彩、大字当背景、整屏换色、小报营养版 | [两种网站两种美学.md](prompts/两种网站两种美学.md) |
 
 ---
 
@@ -64,6 +65,12 @@ npx skills add https://github.com/linyi-ui/ui-layout-skill
 | 04 | 按住触发物理反馈 Press-and-Hold Physics（跨界：偏交互） | 技术型工作室想证明实力，不想堆文案自夸 |
 | 05 | 同模型换材质 Material Swap on Same Model（跨界：偏交互） | 首屏3D主视觉想用一套模型讲两种调性 |
 | 06 | 点击筛选重排 Filter-and-Reflow（跨界：偏交互） | 案例多且杂，想不跳页就能快速对比分类 |
+| 07 | 标题当锚点 Anchor Title | 年度回顾/时间线长页面，滚着滚着会迷路 |
+| 08 | 错落照片墙 Scatter Wall | 作品集/图集想要随手翻相册的松弛感 |
+| 09 | 框架无彩 Mono Frame | 以照片为主角，想让照片色彩最大化跳出来 |
+| 10 | 大字当背景 Type as Background | 产品造型普通，想靠排版制造冲击力 |
+| 11 | 整屏换色 Full-screen Swatch | 多口味/多型号系列展示，滚动像翻色卡 |
+| 12 | 小报营养版 Tabloid Nutrition | 枯燥的营养表/参数也想带上品牌个性 |
 
 完整参数和使用场景见 [designs.md](skills/ui-layout/references/designs.md)。
 
@@ -77,6 +84,7 @@ npx skills add https://github.com/linyi-ui/ui-layout-skill
 
 - **v0.1**（第01期）：首次发布。新增 3 个设计点（配色极度克制、标题顶满边缘、线稿3D模型不填色），来源案例：35mm 胶片相机站首屏。
 - **v0.2**（第02期）：新增 3 个设计点（按住触发物理反馈、同模型换材质、点击筛选重排），来源案例：Anubi（意大利CGI工作室站）+ Red Antler（纽约广告代理商站）。这3个设计点偏交互行为，和 ui-motion 栏目有交集，仍收在 ui-layout 里。
+- **v0.3**（第03期）：新增 6 个设计点（标题当锚点、错落照片墙、框架无彩、大字当背景、整屏换色、小报营养版），来源案例：Better Off（年度回顾站，极致克制）+ Henrietta Said（辣味零食站，极致张扬）。一期拆两种相反的排版美学：前三个讲"克制"怎么让内容跳出来，后三个讲"张扬"怎么靠排版制造记忆点。
 
 ## 许可证
 
